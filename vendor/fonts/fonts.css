@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Inter Bold";
+  src: local("Inter-Bold");
+  src: url(./fonts-travel-in-russia/Inter-Bold.woff2),
+       url(./fonts-travel-in-russia/Inter-Bold.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: local("Inter-Regular");
+  src: url(./fonts-travel-in-russia/Inter-Regular.woff2),
+       url(./fonts-travel-in-russia/Inter-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter Black";
+  src: local("Inter-Black");
+  src: url(./fonts-travel-in-russia/Inter-Black.woff2),
+       url(./fonts-travel-in-russia/Inter-Black.woff);
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*
+font-family: "Inter Bold", Arial, Helvetica, sans-serif;
+font-family: "Inter Black", Arial, Helvetica, sans-serif;
+font-family: "Inter Regular", Arial, Helvetica, sans-serif;
+*/
+

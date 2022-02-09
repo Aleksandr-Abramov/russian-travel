@@ -1,0 +1,72 @@
+/* include vendor */
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
+/* section header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__button/header__button.css);
+
+/* section lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__text/lead__text.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+/* intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__item/intro__list-item.css);
+
+/* block gallary */
+
+@import url(../blocks/gallary/gallary.css);
+@import url(../blocks/gallary/__item/gallary__item.css);
+@import url(../blocks/gallary/__image/gallary__image.css);
+
+/* block places */
+@import url(../blocks/places/places.css);
+
+/* blcok place */
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url-wrapper/place__url-wrapper.css);
+@import url(../blocks/place/__span/place__span.css);
+@import url(../blocks/place/__url/place__url.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/places/__place/places__place.css);
+
+/* block covert */
+@import url(../blocks/covert/covert.css);
+@import url(../blocks/covert/__content-wrapper/covert__content-wrapper.css);
+@import url(../blocks/covert/__title/covert__title.css);
+@import url(../blocks/covert/__text/covert__text.css);
+
+/* block footer */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+/* block page */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__intro/page__intro.css);
+@import url(../blocks/page/__lead/page__lead.css);
+@import url(../blocks/page/__gallary/page__gallary.css);
+@import url(../blocks/page/__places/page__places.css);
+@import url(../blocks/page/__covert/page__covert.css);
+
+/* .covert__wrapper-bg {
+  max-width: 1184px;
+  min-height: 740px;
+  background: rgba(42, 44, 47, .7);
+
+} */

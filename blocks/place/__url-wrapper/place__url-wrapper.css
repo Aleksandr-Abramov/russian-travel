@@ -1,0 +1,14 @@
+.place__url-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  grid-area: place__url-wrapper;
+  margin-bottom: 48px;
+}
+
+@media all and (max-width: 320px) {
+  .place__url-wrapper {
+    margin: 0 16px 48px 16px;
+  }
+}
+
