@@ -44,9 +44,9 @@
 /* block covert */
 @import url(../blocks/covert/covert.css);
 @import url(../blocks/covert/__content-wrapper/covert__content-wrapper.css);
-@import url(../blocks/covert/__overlay/covert__overlay.css);
 @import url(../blocks/covert/__title/covert__title.css);
 @import url(../blocks/covert/__text/covert__text.css);
+@import url(../blocks/covert/__overlay/covert__overlay.css);
 
 /* block footer */
 
