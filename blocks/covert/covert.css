@@ -5,12 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background:  url(../../images/1280/footer__background.jpg) no-repeat center center;
-}
-
-.covert:hover {
-  opacity: .7;
-  cursor: pointer;
+  background: url(../../images/1280/footer__background.jpg) no-repeat center
+    center;
+  position: relative;
 }
 
 @media all and (max-width: 1024px) {
