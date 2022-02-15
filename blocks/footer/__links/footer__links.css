@@ -13,8 +13,8 @@
 @media all and (max-width: 320px) {
   .footer__links {
     max-width: 248px;
-    min-height: 160px;
-    margin: 0 16px 48px 16px;
+    min-height: 250px;
+    margin: 0 16px 35px 16px;
     flex-direction: column;
   }
 }

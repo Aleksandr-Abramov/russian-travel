@@ -1,0 +1,6 @@
+.header__wrapper-button {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+  list-style-type: none;
+}

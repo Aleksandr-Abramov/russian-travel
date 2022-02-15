@@ -1,15 +1,15 @@
-.page__gallary {
-  margin-bottom: 92px;
+.page__cover {
+  margin-bottom: 80px;
 }
 
 @media all and (max-width: 768px) {
-  .page__gallary {
+  .page__cover {
     margin-bottom: 88px;
   }
 }
 
 @media all and (max-width: 320px) {
-  .page__gallary {
+  .page__cover {
     margin-bottom: 64px;
   }
 }

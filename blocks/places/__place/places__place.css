@@ -1,5 +1,8 @@
 .places__place {
-  margin-bottom: 80px;
+  margin-bottom: 78px;
+}
+.places__place:last-child {
+  margin-bottom: 0px;
 }
 
 @media all and (max-width: 768px) {

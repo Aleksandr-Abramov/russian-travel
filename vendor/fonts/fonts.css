@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Inter Bold";
+  font-family: "Inter";
   src: local("Inter-Bold");
   src: url(./fonts-travel-in-russia/Inter-Bold.woff2),
        url(./fonts-travel-in-russia/Inter-Bold.woff);
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Inter Regular";
+  font-family: "Inter";
   src: local("Inter-Regular");
   src: url(./fonts-travel-in-russia/Inter-Regular.woff2),
        url(./fonts-travel-in-russia/Inter-Regular.woff);
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-  font-family: "Inter Black";
+  font-family: "Inter";
   src: local("Inter-Black");
   src: url(./fonts-travel-in-russia/Inter-Black.woff2),
        url(./fonts-travel-in-russia/Inter-Black.woff);

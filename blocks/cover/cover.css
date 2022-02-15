@@ -1,4 +1,4 @@
-.covert {
+.cover {
   width: 100%;
   max-width: 1184px;
   min-height: 740px;
@@ -10,23 +10,42 @@
   position: relative;
 }
 
+
+.cover:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  cursor: url("../../../images/Cursor-Pointer.svg"), pointer;
+  background: rgba(42, 44, 47, 0.3);
+  z-index: 1;
+}
+
+
+.cover:hover::after {
+  background: rgba(42, 44, 47, 0.7);
+}
+
 @media all and (max-width: 1024px) {
-  .covert {
+  .cover {
     min-width: 1024px;
     min-height: 640px;
   }
 }
 
 @media all and (max-width: 768px) {
-  .covert {
+  .cover {
     min-width: 768px;
     min-height: 480px;
   }
 }
 
 @media all and (max-width: 320px) {
-  .covert {
+  .cover {
     min-width: 320px;
     min-height: 200px;
   }
 }
+

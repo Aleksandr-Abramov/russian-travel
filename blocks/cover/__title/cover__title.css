@@ -1,6 +1,7 @@
-.covert__title {
+.cover__title {
   max-width: 560px;
-  font-family: "Inter Black", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
@@ -10,7 +11,7 @@
 }
 
 @media all and (max-width: 320px) {
-  .covert__title {
+  .cover__title {
     max-width: 255px;
     margin: 0 16px 16px 16px;
     font-size: 32px;

@@ -1,6 +1,9 @@
-.covert__text {
+.cover__text {
+  margin: 0;
+  padding: 0;
   max-width: 360px;
-  font-family: "Inter Regular", Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -9,10 +12,9 @@
 }
 
 @media all and (max-width: 320px) {
-  .covert__text {
+  .cover__text {
+
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
-    color: #ffffff;
   }
 }
