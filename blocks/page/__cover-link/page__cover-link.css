@@ -1,6 +1,45 @@
-.page__cover-link{
+.page__cover-link {
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+ .page__cover-link:after {
+  content: "";
   width: 100%;
   height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  cursor: url("../../../images/Cursor-Pointer.svg"), pointer;
+  background: rgba(42, 44, 47, 0.3);
+  z-index: 1;
+}
 
-  text-decoration: none;
+
+.page__cover-link:hover::after {
+  background: rgba(42, 44, 47, 0.7);
+}
+ @media all and (max-width: 1024px) {
+  .page__cover-link {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .page__cover-link {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .page__cover-link {
+    max-width: 320px;
+    min-height: 200px;
+  }
 }
