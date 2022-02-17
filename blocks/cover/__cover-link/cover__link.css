@@ -1,4 +1,4 @@
-.page__cover-link {
+.cover__link {
   max-width: 1184px;
   min-height: 740px;
   display: flex;
@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
- .page__cover-link:after {
+ .cover__link:after {
   content: "";
   width: 100%;
   height: 100%;
@@ -20,25 +20,25 @@
 }
 
 
-.page__cover-link:hover::after {
+.cover__link:hover::after {
   background: rgba(42, 44, 47, 0.7);
 }
  @media all and (max-width: 1024px) {
-  .page__cover-link {
+  .cover__link {
     max-width: 1024px;
     min-height: 640px;
   }
 }
 
 @media all and (max-width: 768px) {
-  .page__cover-link {
+  .cover__link {
     max-width: 768px;
     min-height: 480px;
   }
 }
 
 @media all and (max-width: 320px) {
-  .page__cover-link {
+  .cover__link {
     max-width: 320px;
     min-height: 200px;
   }
