@@ -37,6 +37,13 @@
   }
 }
 
+@media all and (max-width: 767px) {
+  .cover__link {
+    min-width: 321px;
+    min-height: 480px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .cover__link {
     max-width: 320px;
