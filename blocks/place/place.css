@@ -20,7 +20,20 @@
 @media all and (max-width: 768px) {
   .place {
     max-width: 720px;
+    width: 100%;
     column-gap: 28px;
+  }
+}
+
+@media all and (max-width: 532px) {
+  .place {
+    max-width: none;
+    grid-template-areas:
+      "place__title"
+      "place__url-wrapper"
+      "place__image"
+      "place__text-wrapper";
+    grid-template-columns: repeat(1, minmax(min-content, max-content));
   }
 }
 

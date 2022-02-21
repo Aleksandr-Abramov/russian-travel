@@ -9,6 +9,7 @@
 @media all and (max-width: 1024px) {
   .footer {
     max-width: 928px;
+    flex-wrap: wrap;
   }
 }
 

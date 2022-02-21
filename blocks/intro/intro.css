@@ -5,7 +5,11 @@
 
 @media all and (max-width: 768px) {
   .intro {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 320px;
+    width: 280px;
   }
 }
 

@@ -10,6 +10,15 @@
   z-index: 2;
 }
 
+@media all and (max-width: 540px) {
+  .cover__title {
+    max-width: 255px;
+
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
 @media all and (max-width: 320px) {
   .cover__title {
     max-width: 255px;

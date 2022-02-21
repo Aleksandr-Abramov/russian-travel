@@ -60,7 +60,6 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__nav/footer-nav.css);
 
-
 /* block main */
 
 @import url(../blocks/main/main.css);
@@ -72,4 +71,4 @@
 @import url(../blocks/page/__lead/page__lead.css);
 @import url(../blocks/page/__gallery/page__gallery.css);
 @import url(../blocks/page/__places/page__places.css);
-@import url(../blocks/page/__cover-link/page__cover-link.css)
+@import url(../blocks/page/__cover/page__cover.css);
