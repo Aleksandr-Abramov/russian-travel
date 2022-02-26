@@ -1,6 +1,12 @@
 .page__intro {
-
+  margin-left: 140px;
   margin-bottom: 92px;
+}
+
+@media all and (max-width: 1024px) {
+  .page__intro {
+    margin-left: 0;
+  }
 }
 
 @media all and (max-width: 768px) {

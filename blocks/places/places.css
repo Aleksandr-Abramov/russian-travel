@@ -1,6 +1,5 @@
 .places {
   max-width: 984px;
-  width: 100%;
 }
 
 @media all and (max-width: 1024px) {

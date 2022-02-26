@@ -4,7 +4,10 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  display: inline-block;
   color: #ffffff;
   cursor: url("../../../images/Cursor-Pointer.svg"), pointer;
+}
+
+.place__url:hover {
+  opacity: 0.8;
 }
