@@ -1,7 +1,6 @@
 .header {
   max-width: 1184px;
-  width: 100%;
-
+  width: calc(100% - 48px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,11 +14,13 @@
 @media all and (max-width: 768px) {
   .header {
     max-width: 720px;
+    width: calc(100% - 24px);
   }
 }
 
 @media all and (max-width: 320px) {
   .header {
     max-width: 288px;
+    width: 100%;
   }
 }

@@ -2,8 +2,9 @@
   padding: 0;
   margin: 0;
   max-width: 1184px;
-  width: 100%;
+  width: calc(100% - 48px);
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(4, minmax(min-content, max-content));
   grid-template-rows: repeat(3, minmax(min-content, max-content));
   gap: 16px;
@@ -19,6 +20,7 @@
 @media all and (max-width: 768px) {
   .gallery {
     max-width: 720px;
+    width: calc(100% - 24px);
     grid-template-columns: repeat(2, minmax(min-content, max-content));
     grid-template-rows: repeat(6, minmax(min-content, max-content));
     gap: 16px;
@@ -34,10 +36,10 @@
   }
 }
 
-
 @media all and (max-width: 320px) {
   .gallery {
     max-width: 288px;
+    width: calc(100%);
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 216px);
     gap: 12px;
